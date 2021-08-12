@@ -1,4 +1,6 @@
-package classes
+package classes.exercicio_conta
+
+import classes.Cliente
 
 fun main() {
     var cliente1 = Cliente("Romoaldo", "FullStack")
