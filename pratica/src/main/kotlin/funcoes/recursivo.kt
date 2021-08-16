@@ -9,7 +9,7 @@ fun main() {
 class Aluno(){
     var numero = 0
 
-//  ERRADO - gera recurssividade
+//  ERRADO - gera recursividade
 //  set(value){
 //    numero = value //problema loop
 //  }
