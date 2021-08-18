@@ -13,7 +13,7 @@ package classes.Interface
 
 class Foto(
     override var nome: String,
-    override var tipo: String) :Imprimivel {
+    override var tipo: String) :IImprimivel {
 
     override fun imprimir() {
         println("Eu sou uma $nome, $tipo")

@@ -14,10 +14,10 @@ package classes.Interface
 
 class Impressora {
 
-    var listaImprimivel = mutableListOf<Imprimivel>()
+    var listaImprimivel = mutableListOf<IImprimivel>()
 
-    fun adiciona(item: Imprimivel){
-        listaImprimivel.addAll(listOf(item))
+    fun adiciona(item: IImprimivel){
+        listaImprimivel.add(item)
     }
 
     fun imprimir(){

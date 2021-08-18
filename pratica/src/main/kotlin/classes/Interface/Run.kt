@@ -7,10 +7,10 @@ package classes.Interface
 
 fun main() {
 
-    var documento = Documento("Documento", "Passaporte")
-    var foto = Foto("Foto", "Passaporte")
-    var contrato = Contrato("Contrato", "Locação")
-    var impressora = Impressora()
+    val documento = Documento("Documento", "Passaporte")
+    val foto = Foto("Foto", "Passaporte")
+    val contrato = Contrato("Contrato", "Locação")
+    val impressora = Impressora()
 
     impressora.adiciona(documento)
     impressora.adiciona(foto)
