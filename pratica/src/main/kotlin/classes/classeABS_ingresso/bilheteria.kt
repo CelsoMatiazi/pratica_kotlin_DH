@@ -5,7 +5,7 @@ import java.util.*
 fun main() {
 
     val scanner = Scanner(System.`in`)
-    println("Escolha o tipo de ingresso deseja adquirir:")
+    println("Escolha o tipo de ingresso que deseja adquirir:")
     println(
         """
         1 - Padrão
@@ -19,7 +19,7 @@ fun main() {
         var ingresso = IngressoPadrao(100.0)
         ingresso.imprimeValor()
     } else {
-        var ingresso = IngressoVip(20.0, 100.0)
+        var ingresso = IngressoVip(100.0, 20.0)
         ingresso.imprimeValor()
     }
 }
