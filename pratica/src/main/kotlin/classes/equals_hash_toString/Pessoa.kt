@@ -7,11 +7,11 @@ class Pessoa(var nome: String, var rg: Int) {
     }
 
     override fun toString(): String{
-        return "$nome possui o RG $rg"
+        return "${this.nome} possui o RG ${this.rg}"
     }
 
     override  fun hashCode(): Int{
-        return rg
+        return this.rg
     }
 
 }
