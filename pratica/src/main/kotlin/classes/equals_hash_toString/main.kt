@@ -17,4 +17,11 @@ fun main() {
     println(coca1.toString())
     println(coca1.hashCode())
 
+    println("=============dataClass=====================")
+
+    val pessoaData1 = PessoaDataClass("Jose", 1234)
+    val pessoaData2 = PessoaDataClass("Jose", 1234)
+
+    println(pessoaData1 == pessoaData2)
+
 }
