@@ -9,6 +9,12 @@ val subtracao = {a: Int, b: Int ->  a - b}
 val divisao = {a: Int, b: Int ->  a / b}
 val multiplicacao = {a: Int, b: Int ->  a * b}
 
+// outra forma
+class Calculadora{
+    fun calcular(a: Int, b: Int, operacao : (Int, Int) -> Int){
+        println(operacao(a,b))
+    }
+}
 
 //2-Crie uma função lambda que receba um e-mail e valide-o para saber se
 // está conforme as regras básicas. Para cumprir a regra básica principal,
@@ -49,8 +55,13 @@ fun main() {
     println("Subtracao = " + subtracao(3,4))
     println("Divisao = " + divisao(3,4))
     println("Multiplicacao = " + multiplicacao(3,4))
+    println("")
+    println("passando operação por paramentro para a classe Calculadora")
+    Calculadora().calcular(3,4, subtracao)
+    println("")
     println("Exercicio 2")
     println("Email valido = " + validaEmail("celsomatiazi@gmail.com"))
+    println("")
     println("Exercicio 3")
     println("Produto = " + produto(listOf(1,2,3,4)))
     println("Produto2 = " + produto2(listOf(1,2,3,4)))
