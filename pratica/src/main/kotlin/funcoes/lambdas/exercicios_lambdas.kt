@@ -6,7 +6,7 @@ package funcoes.lambdas
 val soma: (Int, Int) -> Int = {a: Int, b: Int ->  a + b}
 val soma2 = {a: Int, b: Int ->  a + b}
 val subtracao = {a: Int, b: Int ->  a - b}
-val divisao = {a: Int, b: Int ->  a / b}
+val divisao = {a: Int, b: Int ->  if(b != 0) a / b else 0}
 val multiplicacao = {a: Int, b: Int ->  a * b}
 
 // outra forma
@@ -23,6 +23,10 @@ class Calculadora{
 val validaEmail : (String) -> Boolean = {email: String ->
     email.contains("@") && email.contains(".")
 }
+
+// versão Ana Cortez
+//val emailRegex = "^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$";
+//val isEmailValid = {email:String -> emailRegex.toRegex().matches(email)}
 
 
 //3-Cria uma função lambda que receba uma List<Int> e calcule e retorne o produto
@@ -55,12 +59,15 @@ fun main() {
     println("Subtracao = " + subtracao(3,4))
     println("Divisao = " + divisao(3,4))
     println("Multiplicacao = " + multiplicacao(3,4))
+
     println("")
     println("passando operação por paramentro para a classe Calculadora")
     Calculadora().calcular(3,4, subtracao)
+
     println("")
     println("Exercicio 2")
     println("Email valido = " + validaEmail("celsomatiazi@gmail.com"))
+
     println("")
     println("Exercicio 3")
     println("Produto = " + produto(listOf(1,2,3,4)))
