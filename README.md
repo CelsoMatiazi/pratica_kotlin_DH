@@ -1,2 +1,2 @@
 # pratica_kotlin_DH
-Exercicios de Kotlin das aulas de Kotlin da Digital House
+Exercicios de Kotlin do curso de desenvolvedor andorid da Digital House
