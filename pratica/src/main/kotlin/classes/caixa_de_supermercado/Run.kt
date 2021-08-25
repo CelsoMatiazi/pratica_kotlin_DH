@@ -2,7 +2,8 @@ package classes.caixa_de_supermercado
 
 fun main() {
 
-    var carrinho = CarrinhoDeCompra()
+    val carrinho = CarrinhoDeCompra()
+
     carrinho.adicionaItens("Walkman", 234.99)
     carrinho.adicionaItens("Fita K7 5150", 19.99)
     carrinho.adicionaItens("LP Jazz", 14.99)
