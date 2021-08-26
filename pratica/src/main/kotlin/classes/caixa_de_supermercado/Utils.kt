@@ -1,6 +1,8 @@
 package classes.caixa_de_supermercado
 import java.util.Calendar.*
 
+
+//Impressora colorida
 const val RED = "\u001b[1;31m"
 const val GREEN = "\u001b[0;32m"
 const val RESET = "\u001B[0m"
