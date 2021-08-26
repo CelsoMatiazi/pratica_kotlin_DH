@@ -1,5 +1,16 @@
 package funcoes.collection
 
+
+//2. Criar um dicionário que represente os apelidos que uso para chamar os meus amigos.
+// Para isso, o dicionário deverá ter como chave String e como valor uma lista de Strings.
+// Crie uma função para printara lista, chave e valor.
+
+// João → Juan, El Divo, Maromba, Zé Bonitinho
+// Miguel → Dark Knight, Bruce Wayne, Batfleck, Gengiva
+// Maria → Ju, Mary, Marilene, Ventania
+// Lucas → Lukinha, Jorge, George, Kevin Flynn
+
+
 fun main() {
 
     val amigos = mapOf<String, List<String>>(
