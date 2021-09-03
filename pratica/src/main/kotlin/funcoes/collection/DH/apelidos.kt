@@ -28,8 +28,10 @@ fun main() {
 
     amigos.forEach{
         print("${it.key} -> ")
-        it.value.forEach{ print("$it ")}
+        it.value.forEach{ print("$it, ")}
         println()
     }
+
+
 
 }

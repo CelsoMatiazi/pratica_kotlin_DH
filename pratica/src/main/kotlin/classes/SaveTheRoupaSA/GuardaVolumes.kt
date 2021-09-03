@@ -1,4 +1,4 @@
-package funcoes.collection.DH.SaveTheRoupaSA
+package classes.SaveTheRoupaSA
 
 
 //2.Criar a classe GuardaVolumes, que tenha como atributoum dicionário e um contador

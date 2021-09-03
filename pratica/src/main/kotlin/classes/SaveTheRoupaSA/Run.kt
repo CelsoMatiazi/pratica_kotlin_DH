@@ -1,4 +1,4 @@
-package funcoes.collection.DH.SaveTheRoupaSA
+package classes.SaveTheRoupaSA
 
 fun main() {
 
@@ -19,7 +19,7 @@ fun main() {
     println()
     guardarPecas.mostrarTodasPecas()
     println()
-    guardarPecas.guardaPecas(Peca("Citzes", "Relogio"))
+    guardarPecas.guardaPecas(Peca("Citzem", "Relogio"))
     println()
     guardarPecas.mostrarTodasPecas()
 

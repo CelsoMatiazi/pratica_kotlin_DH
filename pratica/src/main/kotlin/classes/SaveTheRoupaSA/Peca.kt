@@ -1,4 +1,4 @@
-package funcoes.collection.DH.SaveTheRoupaSA
+package classes.SaveTheRoupaSA
 
 
 //1. Criar a classe Peça, que contenha as variáveis marca e modelo, ambas de tipo String
